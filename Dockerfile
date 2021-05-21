@@ -18,4 +18,4 @@ RUN pip install --upgrade sklearn
 RUN pip install --upgrade xgboost
 
 # lambda_function.py 의 lambda_handler 함수 호출
-CMD ["lambda_function.lambda_handler"]
+CMD ["lambdafunc.handler"]
