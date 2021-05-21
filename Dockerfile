@@ -8,8 +8,9 @@ RUN pip install --upgrade numpy
 RUN pip install --upgrade sklearn
 RUN pip install --upgrade xgboost
 
-RUN git clone https://github.com/unhochoi/lambda-with-docker-container.git
+RUN curl -O https://raw.githubusercontent.com/unhochoi/lambda-with-docker-container/main/lambdafunc.py
+#RUN git clone https://github.com/unhochoi/lambda-with-docker-container.git
 
-WORKDIR lambda-with-docker-container/
+#WORKDIR lambda-with-docker-container/
 
 CMD ["lambdafunc.handler"]
