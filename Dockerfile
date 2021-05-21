@@ -17,7 +17,5 @@ RUN pip install --upgrade numpy
 RUN pip install --upgrade sklearn
 RUN pip install --upgrade xgboost
 
-RUN chmod 644 lambdafunc.py
-
 # lambda_function.py 의 lambda_handler 함수 호출
 CMD ["lambdafunc.handler"]
