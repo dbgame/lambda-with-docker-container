@@ -15,6 +15,6 @@ RUN pip install --upgrade xgboost
 RUN git clone https://github.com/unhochoi/lambda-with-docker-container.git
 
 # move lambdafunc.py
-RUN cp lambda-with-docker-container/lambdafunc.py /var/task/
+RUN cp lambda-with-docker-container/lambda_function.py /var/task/
 
-CMD ["lambdafunc.handler"]
+CMD ["lambda_function.handler"]
