@@ -8,8 +8,7 @@ RUN yum install git -y
 
 # install packages
 RUN pip install --upgrade numpy
-RUN pip install --upgrade sklearn
-RUN pip install --upgrade xgboost
+RUN pip install --upgrade tensorflow
 
 # git clone
 RUN git clone https://github.com/unhochoi/lambda-with-docker-container.git
