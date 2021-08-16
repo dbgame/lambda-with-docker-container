@@ -2,7 +2,6 @@
 import json
 import numpy as np
 import tensorflow as tf
-import tensorflow as tf
 
 # Model Load 
 sp_smdm_dnn_model = tf.keras.models.load_model('/var/task/lambda-with-docker-container/model/dnn_sp_smdm_model')
