@@ -44,10 +44,3 @@ def handler(event, context):
         'statusCode': 200,
         'body': json.dumps(result)
     }
-    
-    
-    # TODO implement
-    return {
-        'statusCode': 200,
-        'body': json.dumps('Hi')
-    }
