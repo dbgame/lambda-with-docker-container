@@ -4,3 +4,6 @@
   -  Lambda Function 에서 사용하고 싶은 Package 들은 Dockerfile 에 작성한 뒤, Image 로 만들어서 사용해야함
   -  Dockerfile 로부터 생성된 Image 는 ECR 에 업로드
   -  Lambda Function 은, ECR Image 기반 Container 내에서 동작함
+
+- 참고
+  -  https://wooono.tistory.com/337?category=1006410
