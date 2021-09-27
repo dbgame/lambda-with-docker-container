@@ -2,7 +2,7 @@
 import json
 import numpy as np
 import tensorflow as tf
-from pickle
+import pickle
 from sklearn.preprocessing import MinMaxScaler
 
 # Model Load 
