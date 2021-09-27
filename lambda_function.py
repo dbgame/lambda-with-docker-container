@@ -10,7 +10,7 @@ bz_smsm_dnn_model = tf.keras.models.load_model('/var/task/lambda-with-docker-con
 sp_smdm_dnn_model = tf.keras.models.load_model('/var/task/lambda-with-docker-container/model/dnn_sp_smdm_model')
 
 # Scaler Load
-minmax_scaler = pickle.load('/var/task/lambda-with-docker-container/model/minmax_scaler.pkl','rb')
+minmax_scaler = pickle.load(open('/var/task/lambda-with-docker-container/model/minmax_scaler.pkl','rb'))
 
 def handler(event, context):
     
